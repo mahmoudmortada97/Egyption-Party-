@@ -31,3 +31,14 @@ duration.timer(); // Start timer
 messageContent.bind("input propertychange", function (e) {
   contact.displayNumberOfEnteredCharacters(e); // display number of entered characters
 });
+
+$(document).on("click", 'a[href^="#"]', function (event) {
+  event.preventDefault();
+
+  $("html, body").animate(
+    {
+      scrollTop: $($.attr(this, "href")).offset().top,
+    },
+    500
+  );
+});
