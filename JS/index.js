@@ -32,7 +32,8 @@ messageContent.bind("input propertychange", function (e) {
   contact.displayNumberOfEnteredCharacters(e); // display number of entered characters
 });
 
-$(document).on("click", 'a[href^="#"]', function (event) {
+// Go To Section with Smoothing
+$(document).on("click", "a[href]", function (event) {
   event.preventDefault();
 
   $("html, body").animate(
