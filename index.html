@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- favIcon -->
+    <link
+      rel="shortcut icon"
+      href="Images/icons8-party-96.png"
+      type="image/x-icon"
+    />
+    <!-- favIcon -->
+
+    <title>Egyption Party</title>
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="Styles/all.min.css" />
+    <!-- Font Awesome CSS -->
+
+    <!-- My Own Style -->
+    <link rel="stylesheet" href="Styles/style.css" />
+    <!-- My Own Style -->
+  </head>
+  <body>
+    <!-- Home Section -->
+    <section class="text-center text-white" id="home">
+      <div id="redLayer" class="flex justify-center items-center">
+        <div class="content">
+          <h1 class="text-5xl font-bold">Egyption Partey</h1>
+          <p class="text-lg">Let's Have Fun</p>
+        </div>
+      </div>
+      <div id="sideBar" class="fixed top-0 bottom-0 z-10 flex">
+        <div class="sideBar-Content bg-slate-500 w-52 relative">
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Duration</a>
+            </li>
+            <li>
+              <a href="#">Details</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+          <i
+            class="fa-solid fa-circle-xmark cursor-pointer"
+            id="closeSideBar"
+          ></i>
+        </div>
+        <div class="align-top translate-y-32 cursor-pointer" id="toggleSideBar">
+          <i class="fa-solid fa-bars bg-yellow-600 p-3"></i>
+        </div>
+      </div>
+    </section>
+    <!-- Home Section -->
+
+    <!-- Details Section -->
+    <section id="details" class="my-20">
+      <div
+        class="content flex flex-row flex-wrap justify-center items-center text-center"
+      >
+        <div class="singer-item basis-2/3">
+          <h1>Singer One</h1>
+          <p id="first-paragraph">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            veritatis nulla a consequuntur voluptatem, corporis ex repellendus
+            vel iure fuga aperiam commodi explicabo dolor beatae, atque quo
+            eligendi odit eaque enim accusantium accusamus, natus repudiandae.
+            Placeat nihil voluptatum laborum recusandae laudantium ducimus
+            quidem odit fuga libero. Temporibus quasi quidem ad?
+          </p>
+        </div>
+        <div class="singer-item basis-2/3">
+          <h1>Singer Two</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            veritatis nulla a consequuntur voluptatem, corporis ex repellendus
+            vel iure fuga aperiam commodi explicabo dolor beatae, atque quo
+            eligendi odit eaque enim accusantium accusamus, natus repudiandae.
+            Placeat nihil voluptatum laborum recusandae laudantium ducimus
+            quidem odit fuga libero. Temporibus quasi quidem ad? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Pariatur dolor iusto
+            facere ut esse dolorem consequatur similique illum distinctio fugit.
+          </p>
+        </div>
+        <div class="singer-item basis-2/3">
+          <h1>Singer Three</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            veritatis nulla a consequuntur voluptatem, corporis ex repellendus
+            vel iure fuga aperiam commodi explicabo dolor beatae, atque quo
+            eligendi odit eaque enim accusantium accusamus, natus repudiandae.
+            Placeat nihil voluptatum laborum recusandae laudantium ducimus
+            quidem odit fuga libero. Temporibus quasi quidem ad?
+          </p>
+        </div>
+        <div class="singer-item basis-2/3">
+          <h1>Singer Four</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
+            veritatis nulla a consequuntur voluptatem, corporis ex repellendus
+            vel iure fuga aperiam commodi explicabo dolor beatae, atque quo
+            eligendi odit eaque enim accusantium accusamus, natus repudiandae.
+            Placeat nihil voluptatum laborum recusandae laudantium ducimus
+            quidem odit fuga libero. Temporibus quasi quidem ad? Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Commodi cupiditate,
+            recusandae nesciunt veniam, labore eveniet ex aspernatur dignissimos
+            sunt quisquam eaque fuga vero consequatur, veritatis esse eligendi
+            laborum quibusdam voluptates.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Details Section -->
+
+    <!-- Duration Section -->
+    <section id="duration" class="my-20">
+      <div id="redLayer" class="flex flex-col">
+        <h2
+          class="text-green-500 bg-slate-700 p-2 text-4xl font-semibold text-center self-center rounded-lg"
+        >
+          My BirthDate : 20/09/2023
+        </h2>
+        <div
+          class="container flex justify-center items-center w-full h-full py-16"
+        >
+          <div class="flex justify-center items-center w-full gap-8">
+            <div class="duration-item w-1/6 flex justify-center items-center">
+              <span id="days"></span> D
+            </div>
+            <div class="duration-item w-1/6 flex justify-center items-center">
+              <span id="hours"></span>h
+            </div>
+            <div class="duration-item w-1/6 flex justify-center items-center">
+              <span id="min"></span>m
+            </div>
+            <div class="duration-item w-1/6 flex justify-center items-center">
+              <span id="sec"></span>s
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Duration Section -->
+
+    <!-- Contact section -->
+    <section id="contact" class="my-20 text-slate-600">
+      <div class="container mx-auto px-20">
+        <div class="content flex gap-5 justify-between items-center flex-wrap">
+          <div class="contact-info lg:w-2/6">
+            <div class="my-4">
+              <h3 class="text-3xl font-extrabold">Join US</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="my-8">
+              <h4 class="text-2xl font-bold">Contact Info</h4>
+              <p>
+                Why you should hire me writeup Lorem ipsum dolor sit amet,
+                consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                Aenean massa. Cum sociis natoque nascetur ridiculus mus.
+              </p>
+            </div>
+            <ul class="flex flex-col gap-8 my-8">
+              <li class="flex gap-3 items-center">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>New Street 22545, Nexa Road, New York City, USA</p>
+              </li>
+              <li class="flex gap-3 items-center">
+                <i class="fa-solid fa-envelope"></i>
+                <p class="text-red-600">hello@uigrid.com</p>
+              </li>
+              <li class="flex gap-3 items-center">
+                <i class="fa-solid fa-phone"></i>
+                <p>001-000-000-000</p>
+              </li>
+            </ul>
+            <div class="social-icons flex gap-5">
+              <i class="fa-brands fa-facebook-f"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-google"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-behance"></i>
+              <i class="fa-brands fa-dribbble"></i>
+            </div>
+          </div>
+          <div class="message-us lg:w-3/6 w-full">
+            <form class="flex flex-col gap-5">
+              <label class="block">
+                <input
+                  type="text"
+                  placeholder="Enter Name"
+                  class="placeholder:text-xl mt-1 block w-3/4 px-3 py-2 mx-auto bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+                />
+              </label>
+              <label class="block">
+                <input
+                  type="text"
+                  placeholder="Enter Email"
+                  class="placeholder:text-xl mt-1 block w-3/4 px-3 py-2 mx-auto bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+                />
+              </label>
+              <label class="block">
+                <textarea
+                  type="text"
+                  placeholder="Enter Message"
+                  maxlength="100"
+                  class="placeholder:text-2xl mt-1 h-52 block w-3/4 px-3 py-2 mx-auto bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500 disabled:bg-slate-50 disabled:text-slate-500 disabled:border-slate-200 disabled:shadow-none invalid:border-pink-500 invalid:text-pink-600 focus:invalid:border-pink-500 focus:invalid:ring-pink-500"
+                ></textarea>
+              </label>
+              <p class="ml-20 w-3/4 block">
+                <span id="charachterNumbers" class="text-red-700 text-4xl"
+                  >100</span
+                >
+                <span>Characters Remaining</span>
+              </p>
+              <button
+                class="self-center p-2 text-white rounded-md bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300"
+              >
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact section -->
+
+    <!--////////////////////////////////////////////-->
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CDN -->
+
+    <!-- JQuery -->
+    <script src="JS/jquery-3.6.3.min.js"></script>
+    <!-- JQuery -->
+
+    <!-- My Own JS -->
+    <script src="JS/index.js" type="module"></script>
+    <!-- My Own JS -->
+    <!--////////////////////////////////////////////-->
+  </body>
+</html>
