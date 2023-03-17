@@ -14,6 +14,9 @@
   background-position: center;
   background-size: cover;
 }
+#home #sideBar {
+  left: -208px;
+}
 #home ul {
   transform: translateY(60%);
 }
